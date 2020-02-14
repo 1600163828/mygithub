@@ -1,0 +1,19 @@
+
+1、如果你是普通用户的话，需要root账号权限，如果你是root账号，那就忽略这个步骤：
+sudo -i
+
+BBR一键安装代码：
+wget --no-check-certificate https://raw.githubusercontent.com/cx9208/Linux-NetSpeed/master/tcp.sh && chmod +x tcp.sh && ./tcp.sh
+
+./tcp.sh
+
+2、安装v2ray
+使用 root 用户输入下面命令安装或卸载
+bash <(curl -s -L https://git.io/v2ray.sh)
+如果提示 curl: command not found ，那是因为你的小鸡没装 Curl
+ubuntu/debian 系统安装 Curl 方法: apt-get update -y && apt-get install curl -y
+centos 系统安装 Curl 方法: yum update -y && yum install curl -y
+安装好 curl 之后就能安装脚本了
+
+
+
